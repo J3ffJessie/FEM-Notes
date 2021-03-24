@@ -21,7 +21,7 @@
 
 // Functions with Memories
 
-// When our functions get ChannelSplitterNode, we create a live storage of data (local memory/ variable environment/state) for that functions execution AudioContext.apply
+// When our functions get called, we create a live storage of data (local memory/ variable environment/state) for that functions execution context.
 // When the function finishes executing, its local memory is deleted(except the returned value)
 // But what if our functions could hold on to live data between executions?
 // This would let our functions definitions have an associated cache/persistent memory.
